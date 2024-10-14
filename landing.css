@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+    transition: all 0.7s ease-in-out;
+}
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 184, 135);
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color:yellow;
+}
+.hr {
+    display: inline-flex;
+    font-size: 24px;
+    padding: 10px;
+}
+.hr.login {
+    position: absolute;
+    right: 35px;
+    background-color: white;
+    border-radius: 24px;
+}
+.hr.signup {
+    position: absolute;
+    right: 155px;
+    background-color: green;
+    border-radius: 24px;
+    color: white;
+}
+.intro {
+    font-size: 34px;
+    padding: 10px;
+    overflow-x: hidden;
+    background-image: url("images/cakes 1.jpeg");
+    background-size: cover;
+    height: 680px;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+}
+.intro h1 {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    color: black;
+}
+.about1 {
+    padding: 50px 0;
+    text-align: center;
+}
+.about1 p {
+    font-size: 28px;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+ .product {
+    padding: 50px 0;
+    text-align: center;
+}
+.RECIPES{
+    padding: 50px 0;
+    text-align: center;
+}
+.ig {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+.ig img {
+    height: 250px;
+    width: 250px;
+}
+.s1 {
+    font-size: 26px;
+}
